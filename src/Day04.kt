@@ -1,6 +1,3 @@
-import java.util.Scanner
-import java.util.regex.Pattern
-
 fun main() {
     val pairDescPattern = Regex("(\\d+)-(\\d+),(\\d+)-(\\d+)")
     fun toPair(pairDesc: String): Pair<Pair<Int, Int>, Pair<Int, Int>> {

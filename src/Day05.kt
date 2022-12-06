@@ -1,6 +1,3 @@
-import java.util.Scanner
-import java.util.regex.Pattern
-
 fun main() {
     val indexesPattern = Regex("(:? \\d ? ?)+")
     val cratePattern = Regex(".{3} ?")
