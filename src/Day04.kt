@@ -32,10 +32,10 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day04_test")
+    val testInput = readInput("resources/Day04_test")
     check(part1(testInput) == 2)
 
-    val input = readInput("Day04")
+    val input = readInput("resources/Day04")
     println(part1(input))
 
     check(part2(testInput) == 4)

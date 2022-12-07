@@ -12,10 +12,10 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day06_test")
+    val testInput = readInput("resources/Day06_test")
     check(part1(testInput) == 7)
 
-    val input = readInput("Day06")
+    val input = readInput("resources/Day06")
     println(part1(input))
 
     check(part2(testInput) == 19)

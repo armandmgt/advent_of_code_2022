@@ -46,10 +46,10 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day05_test")
+    val testInput = readInput("resources/Day05_test")
     check(part1(testInput) == "CMZ")
 
-    val input = readInput("Day05")
+    val input = readInput("resources/Day05")
     println(part1(input))
 
     check(part2(testInput) == "MCD")

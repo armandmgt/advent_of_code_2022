@@ -27,10 +27,10 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("Day03_test")
+    val testInput = readInput("resources/Day03_test")
     check(part1(testInput) == 157)
 
-    val input = readInput("Day03")
+    val input = readInput("resources/Day03")
     println(part1(input))
 
     check(part2(testInput) == 70)
