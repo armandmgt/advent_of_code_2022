@@ -1,5 +1,3 @@
-enum class Direction { NORTH, SOUTH, WEST, EAST }
-
 fun main() {
     fun countInDir(input: List<String>, dir: Direction): MutableList<Pair<Int, Int>> {
         val visibleTrees = mutableListOf<Pair<Int, Int>>()

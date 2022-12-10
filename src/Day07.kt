@@ -1,5 +1,5 @@
 fun main() {
-    class Node(val name: String, val size: Int, val leafs: List<Node>)
+    data class Node(val name: String, val size: Int, val leafs: List<Node>)
 
     val cdPattern = Regex("\\$ cd ([/\\w]+)")
     val filePattern = Regex("(\\d+) .*")
