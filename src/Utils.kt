@@ -28,3 +28,10 @@ fun <T : Comparable<T>> top(n: Int, collection: Iterable<T>): List<T> {
         topList
     }
 }
+
+// Everything after this is coloured
+val red = "\u001b[31m"
+val green = "\u001b[32m"
+
+// Resets previous color codes
+val reset = "\u001b[0m"
