@@ -29,6 +29,11 @@ fun <T : Comparable<T>> top(n: Int, collection: Iterable<T>): List<T> {
     }
 }
 
+sealed class Either<A, B> {
+    class Left<A, B>(val left: A) : Either<A, B>()
+    class Right<A, B>(val right: B) : Either<A, B>()
+}
+
 // Everything after this is coloured
 val red = "\u001b[31m"
 val green = "\u001b[32m"
